@@ -1,0 +1,25 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "LAPTOP-H5KDTVQR",
+    "children" : [ {
+      "name" : "6024-MainThread",
+      "children" : [ {
+        "name" : "test_01.Test01.test_01",
+        "uid" : "f73a816d7ecf839b",
+        "parentUid" : "4bb9b5178b92c235a291bed610744f36",
+        "status" : "passed",
+        "time" : {
+          "start" : 1586861933374,
+          "stop" : 1586861933378,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4bb9b5178b92c235a291bed610744f36"
+    } ],
+    "uid" : "ecdcfd96fead6ffdb262312f3eac33da"
+  } ]
+}

@@ -1,0 +1,205 @@
+2020-04-14 15:51:33,880 opmysql.py[line:28] ERROR (1045, "Access denied for user 'nice_mysql'@'60.186.195.160' (using password: YES)")
+Traceback (most recent call last):
+  File "E:/PycharmProjects/NiceApi_Python/utils/opmysql.py", line 21, in __init__
+    self.db = pymysql.connect(**config)
+  File "D:\Program Files\Python38\lib\site-packages\pymysql\__init__.py", line 94, in Connect
+    return Connection(*args, **kwargs)
+  File "D:\Program Files\Python38\lib\site-packages\pymysql\connections.py", line 325, in __init__
+    self.connect()
+  File "D:\Program Files\Python38\lib\site-packages\pymysql\connections.py", line 599, in connect
+    self._request_authentication()
+  File "D:\Program Files\Python38\lib\site-packages\pymysql\connections.py", line 861, in _request_authentication
+    auth_packet = self._read_packet()
+  File "D:\Program Files\Python38\lib\site-packages\pymysql\connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "D:\Program Files\Python38\lib\site-packages\pymysql\protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "D:\Program Files\Python38\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1045, "Access denied for user 'nice_mysql'@'60.186.195.160' (using password: YES)")
+2020-04-14 15:56:06,847 opmysql.py[line:25] ERROR (1045, "Access denied for user 'nice_mysql'@'60.186.195.160' (using password: YES)")
+Traceback (most recent call last):
+  File "E:/PycharmProjects/NiceApi_Python/utils/opmysql.py", line 21, in __init__
+    self.db = pymysql.connect(**config)
+  File "D:\Program Files\Python38\lib\site-packages\pymysql\__init__.py", line 94, in Connect
+    return Connection(*args, **kwargs)
+  File "D:\Program Files\Python38\lib\site-packages\pymysql\connections.py", line 325, in __init__
+    self.connect()
+  File "D:\Program Files\Python38\lib\site-packages\pymysql\connections.py", line 599, in connect
+    self._request_authentication()
+  File "D:\Program Files\Python38\lib\site-packages\pymysql\connections.py", line 861, in _request_authentication
+    auth_packet = self._read_packet()
+  File "D:\Program Files\Python38\lib\site-packages\pymysql\connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "D:\Program Files\Python38\lib\site-packages\pymysql\protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "D:\Program Files\Python38\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1045, "Access denied for user 'nice_mysql'@'60.186.195.160' (using password: YES)")
+2020-04-14 15:56:16,612 opmysql.py[line:25] ERROR (1045, "Access denied for user 'nice_mysql'@'60.186.195.160' (using password: YES)")
+Traceback (most recent call last):
+  File "E:/PycharmProjects/NiceApi_Python/utils/opmysql.py", line 21, in __init__
+    self.db = pymysql.connect(**config)
+  File "D:\Program Files\Python38\lib\site-packages\pymysql\__init__.py", line 94, in Connect
+    return Connection(*args, **kwargs)
+  File "D:\Program Files\Python38\lib\site-packages\pymysql\connections.py", line 325, in __init__
+    self.connect()
+  File "D:\Program Files\Python38\lib\site-packages\pymysql\connections.py", line 599, in connect
+    self._request_authentication()
+  File "D:\Program Files\Python38\lib\site-packages\pymysql\connections.py", line 861, in _request_authentication
+    auth_packet = self._read_packet()
+  File "D:\Program Files\Python38\lib\site-packages\pymysql\connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "D:\Program Files\Python38\lib\site-packages\pymysql\protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "D:\Program Files\Python38\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1045, "Access denied for user 'nice_mysql'@'60.186.195.160' (using password: YES)")
+2020-04-14 16:01:10,301 opmysql.py[line:14] ERROR (1045, "Access denied for user 'nice_mysql'@'60.186.195.160' (using password: YES)")
+Traceback (most recent call last):
+  File "E:/PycharmProjects/NiceApi_Python/utils/opmysql.py", line 11, in __init__
+    self.db = pymysql.connect(**conftest.config)
+  File "D:\Program Files\Python38\lib\site-packages\pymysql\__init__.py", line 94, in Connect
+    return Connection(*args, **kwargs)
+  File "D:\Program Files\Python38\lib\site-packages\pymysql\connections.py", line 325, in __init__
+    self.connect()
+  File "D:\Program Files\Python38\lib\site-packages\pymysql\connections.py", line 599, in connect
+    self._request_authentication()
+  File "D:\Program Files\Python38\lib\site-packages\pymysql\connections.py", line 861, in _request_authentication
+    auth_packet = self._read_packet()
+  File "D:\Program Files\Python38\lib\site-packages\pymysql\connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "D:\Program Files\Python38\lib\site-packages\pymysql\protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "D:\Program Files\Python38\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1045, "Access denied for user 'nice_mysql'@'60.186.195.160' (using password: YES)")
+2020-04-14 16:05:35,684 opmysql.py[line:14] ERROR (1045, "Access denied for user 'nice_mysql'@'60.186.195.160' (using password: YES)")
+Traceback (most recent call last):
+  File "E:/PycharmProjects/NiceApi_Python/utils/opmysql.py", line 11, in __init__
+    self.db = pymysql.connect(**conftest.config)
+  File "D:\Program Files\Python38\lib\site-packages\pymysql\__init__.py", line 94, in Connect
+    return Connection(*args, **kwargs)
+  File "D:\Program Files\Python38\lib\site-packages\pymysql\connections.py", line 325, in __init__
+    self.connect()
+  File "D:\Program Files\Python38\lib\site-packages\pymysql\connections.py", line 599, in connect
+    self._request_authentication()
+  File "D:\Program Files\Python38\lib\site-packages\pymysql\connections.py", line 861, in _request_authentication
+    auth_packet = self._read_packet()
+  File "D:\Program Files\Python38\lib\site-packages\pymysql\connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "D:\Program Files\Python38\lib\site-packages\pymysql\protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "D:\Program Files\Python38\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1045, "Access denied for user 'nice_mysql'@'60.186.195.160' (using password: YES)")
+2020-04-14 16:09:47,210 opmysql.py[line:14] ERROR (1045, "Access denied for user 'nice_mysql'@'60.186.195.160' (using password: YES)")
+Traceback (most recent call last):
+  File "E:/PycharmProjects/NiceApi_Python/utils/opmysql.py", line 11, in __init__
+    self.db = pymysql.connect(**conftest.config)
+  File "D:\Program Files\Python38\lib\site-packages\pymysql\__init__.py", line 94, in Connect
+    return Connection(*args, **kwargs)
+  File "D:\Program Files\Python38\lib\site-packages\pymysql\connections.py", line 325, in __init__
+    self.connect()
+  File "D:\Program Files\Python38\lib\site-packages\pymysql\connections.py", line 599, in connect
+    self._request_authentication()
+  File "D:\Program Files\Python38\lib\site-packages\pymysql\connections.py", line 861, in _request_authentication
+    auth_packet = self._read_packet()
+  File "D:\Program Files\Python38\lib\site-packages\pymysql\connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "D:\Program Files\Python38\lib\site-packages\pymysql\protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "D:\Program Files\Python38\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1045, "Access denied for user 'nice_mysql'@'60.186.195.160' (using password: YES)")
+2020-04-14 16:10:19,918 opmysql.py[line:14] ERROR (1045, "Access denied for user 'nice_mysql'@'60.186.195.160' (using password: YES)")
+Traceback (most recent call last):
+  File "E:/PycharmProjects/NiceApi_Python/utils/opmysql.py", line 11, in __init__
+    self.db = pymysql.connect(**conftest.config)
+  File "D:\Program Files\Python38\lib\site-packages\pymysql\__init__.py", line 94, in Connect
+    return Connection(*args, **kwargs)
+  File "D:\Program Files\Python38\lib\site-packages\pymysql\connections.py", line 325, in __init__
+    self.connect()
+  File "D:\Program Files\Python38\lib\site-packages\pymysql\connections.py", line 599, in connect
+    self._request_authentication()
+  File "D:\Program Files\Python38\lib\site-packages\pymysql\connections.py", line 861, in _request_authentication
+    auth_packet = self._read_packet()
+  File "D:\Program Files\Python38\lib\site-packages\pymysql\connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "D:\Program Files\Python38\lib\site-packages\pymysql\protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "D:\Program Files\Python38\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1045, "Access denied for user 'nice_mysql'@'60.186.195.160' (using password: YES)")
+2020-04-14 16:11:09,776 opmysql.py[line:14] ERROR (1045, "Access denied for user 'nice_mysql'@'60.186.195.160' (using password: YES)")
+Traceback (most recent call last):
+  File "E:/PycharmProjects/NiceApi_Python/utils/opmysql.py", line 11, in __init__
+    self.db = pymysql.connect(**conftest.config)
+  File "D:\Program Files\Python38\lib\site-packages\pymysql\__init__.py", line 94, in Connect
+    return Connection(*args, **kwargs)
+  File "D:\Program Files\Python38\lib\site-packages\pymysql\connections.py", line 325, in __init__
+    self.connect()
+  File "D:\Program Files\Python38\lib\site-packages\pymysql\connections.py", line 599, in connect
+    self._request_authentication()
+  File "D:\Program Files\Python38\lib\site-packages\pymysql\connections.py", line 861, in _request_authentication
+    auth_packet = self._read_packet()
+  File "D:\Program Files\Python38\lib\site-packages\pymysql\connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "D:\Program Files\Python38\lib\site-packages\pymysql\protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "D:\Program Files\Python38\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1045, "Access denied for user 'nice_mysql'@'60.186.195.160' (using password: YES)")
+2020-04-14 16:11:09,778 opmysql.py[line:24] ERROR 'OperationMySQL' object has no attribute 'cursor'
+Traceback (most recent call last):
+  File "E:/PycharmProjects/NiceApi_Python/utils/opmysql.py", line 21, in select
+    self.cursor.execute(sql)
+AttributeError: 'OperationMySQL' object has no attribute 'cursor'
+2020-04-14 16:13:24,398 opmysql.py[line:14] ERROR (1045, "Access denied for user 'nice_mysql'@'60.186.195.160' (using password: YES)")
+Traceback (most recent call last):
+  File "E:/PycharmProjects/NiceApi_Python/utils/opmysql.py", line 11, in __init__
+    self.db = pymysql.connect(**conftest.config)
+  File "D:\Program Files\Python38\lib\site-packages\pymysql\__init__.py", line 94, in Connect
+    return Connection(*args, **kwargs)
+  File "D:\Program Files\Python38\lib\site-packages\pymysql\connections.py", line 325, in __init__
+    self.connect()
+  File "D:\Program Files\Python38\lib\site-packages\pymysql\connections.py", line 599, in connect
+    self._request_authentication()
+  File "D:\Program Files\Python38\lib\site-packages\pymysql\connections.py", line 861, in _request_authentication
+    auth_packet = self._read_packet()
+  File "D:\Program Files\Python38\lib\site-packages\pymysql\connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "D:\Program Files\Python38\lib\site-packages\pymysql\protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "D:\Program Files\Python38\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1045, "Access denied for user 'nice_mysql'@'60.186.195.160' (using password: YES)")
+2020-04-14 16:13:24,399 opmysql.py[line:24] ERROR 'OperationMySQL' object has no attribute 'cursor'
+Traceback (most recent call last):
+  File "E:/PycharmProjects/NiceApi_Python/utils/opmysql.py", line 21, in select
+    self.cursor.execute(sql)
+AttributeError: 'OperationMySQL' object has no attribute 'cursor'
+2020-04-14 16:14:12,560 opmysql.py[line:14] ERROR (1045, "Access denied for user 'nice_mysql'@'60.186.195.160' (using password: YES)")
+Traceback (most recent call last):
+  File "E:/PycharmProjects/NiceApi_Python/utils/opmysql.py", line 11, in __init__
+    self.db = pymysql.connect(**conftest.config)
+  File "D:\Program Files\Python38\lib\site-packages\pymysql\__init__.py", line 94, in Connect
+    return Connection(*args, **kwargs)
+  File "D:\Program Files\Python38\lib\site-packages\pymysql\connections.py", line 325, in __init__
+    self.connect()
+  File "D:\Program Files\Python38\lib\site-packages\pymysql\connections.py", line 599, in connect
+    self._request_authentication()
+  File "D:\Program Files\Python38\lib\site-packages\pymysql\connections.py", line 861, in _request_authentication
+    auth_packet = self._read_packet()
+  File "D:\Program Files\Python38\lib\site-packages\pymysql\connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "D:\Program Files\Python38\lib\site-packages\pymysql\protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "D:\Program Files\Python38\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1045, "Access denied for user 'nice_mysql'@'60.186.195.160' (using password: YES)")
+2020-04-14 16:14:12,562 opmysql.py[line:24] ERROR 'OperationMySQL' object has no attribute 'cursor'
+Traceback (most recent call last):
+  File "E:/PycharmProjects/NiceApi_Python/utils/opmysql.py", line 21, in select
+    self.cursor.execute(sql)
+AttributeError: 'OperationMySQL' object has no attribute 'cursor'
