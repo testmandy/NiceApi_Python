@@ -22,6 +22,8 @@ class Url:
             return self.read(Interface.SYSTEMLIB_SEARCH.value)
         if key == Interface.QUESTION_PAGELIST.value:
             return self.read(Interface.QUESTION_PAGELIST.value)
+        if key == Interface.CORE_TABLERECORD_INSERT.value:
+            return self.read(Interface.CORE_TABLERECORD_INSERT.value)
 
 
 # if __name__ == '__main__':

@@ -2,8 +2,6 @@
 # @Time    : 2020/4/13 14:07
 # @Author  : mandy
 import json
-import unittest
-import pytest
 from common.Init import TestInit
 
 
@@ -29,8 +27,4 @@ class TestSystemLib(TestInit):
         res = json.loads(res)
         actual = res['code']
         assert actual == 500
-
-
-if __name__ == '__main__':
-    pytest.main()
 

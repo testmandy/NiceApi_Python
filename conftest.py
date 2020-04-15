@@ -19,10 +19,11 @@ config = {
     "port": 3306,
     "user": "nice_mysql",
     "password": "Mysql2020",
-    "database": "test"
+    "database": "renren_fast"
 }
 
-token = "f83589090d4a7f2773d80c56adfd9602"
+
+token = "eb944a0d61c45c54b9f9e4f9344ff1ee"
 
 def get_logger():
     filename = errorLog_dir
@@ -30,3 +31,41 @@ def get_logger():
                         format='%(asctime)s %(filename)s[line:%(lineno)d] %(levelname)s %(message)s')
     logger = logging.getLogger(__name__)
     return logger
+
+
+data = [
+  {
+    "list": [
+      {
+        "subject": 72,
+        "volume": 42,
+        "textbook_version": 261,
+        "question_type": 298,
+        "sub_type":0,
+        "body": "填空含答案,选择题含选项",
+        "solution": "{}",
+        "analysis": "",
+        "level": 1,
+        "solve_type": 308,
+        "classify": 312,
+        "label1":1,
+        "label2":2,
+        "label3":3,
+        "label4":4,
+        "label5":5,
+        "sub_flag":0,
+        "file_path": "",
+        "explain_path": "",
+        "status": 314,
+        "private_flag": 321,
+        "process_status": 324,
+        "reference_and_question":[
+            {
+              "node_id":37
+            }
+          ]
+      }
+    ],
+    "table_name": "nice_question_lib_question"
+  }
+]

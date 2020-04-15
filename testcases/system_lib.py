@@ -4,7 +4,7 @@
 import json
 import unittest
 import pytest
-from common.test_init import Init
+from common.unittest_init import Init
 
 
 class SystemLib(Init):
